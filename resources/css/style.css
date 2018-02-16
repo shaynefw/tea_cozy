@@ -54,4 +54,43 @@ nav span {
 .om-img {
   position: relative;
   height: 700px;
+  top: 65px;
+}
+
+/* Tea of the Month */
+
+.totm-sec {
+  padding-top: 241px;
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.top-row img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+.top-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.top-row div {
+  padding: 0px 15px 10px 15px;
+}
+.bottom-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.bottom-row img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+  padding-top: 21px;
+}
+.bottom-row div {
+  padding: 0px 15px 10px 15px;
 }
