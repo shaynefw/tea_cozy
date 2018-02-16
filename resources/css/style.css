@@ -4,6 +4,11 @@
 }
 body {
   background-color: black;
+  font-family: helvetica;
+  color: seashell;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
 }
 /* Header */
 
@@ -16,9 +21,7 @@ header {
   height: 69px;
   align-items: center;
   justify-content: space-between;
-  font-size: 22px;
-  color: seashell;
-  font-family: helvetica;
+  z-index: 1;
 }
 .logo img {
   height: 50px;
@@ -36,4 +39,19 @@ header nav {
 }
 nav span {
   padding: 7px;
+}
+
+/* Our Mission */
+
+.om-img div {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  background-color: black;
+  padding: 5px 0px 8px 0px;
+}
+.om-img {
+  position: relative;
+  height: 700px;
 }
