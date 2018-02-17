@@ -94,3 +94,34 @@ nav span {
 .bottom-row div {
   padding: 0px 15px 10px 15px;
 }
+
+/* Locations */
+
+.loc-con {
+  padding-top: 58px;
+}
+.loc-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+}
+.loc-img h2 {
+  padding-top: 60px;
+}
+.loc-add {
+  display: flex;
+  justify-content: center;
+}
+.loc-add div {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin: 15px 20px 0px 20px;
+  width: 300px;
+  opacity: 1;
+}
+.loc-add h3, span {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
