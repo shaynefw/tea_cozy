@@ -125,3 +125,26 @@ nav span {
   padding-top: 20px;
   padding-bottom: 10px;
 }
+.mid-footer {
+  display: flex;
+  flex-direction: column;
+}
+.mid-footer h2 {
+  padding-top: 16px;
+  padding-bottom: 35px;
+}
+.mid-footer h5 {
+  padding-bottom: 24px;
+}
+.end-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+.end-footer h5 {
+  padding-left: 20px;
+}
+.end-footer h6 {
+  opacity: 0.1;
+}
